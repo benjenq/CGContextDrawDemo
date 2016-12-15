@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="_lbctmVal" destination="vwd-Ky-rCa" id="Mat-J7-whW"/>
+                <outlet property="_lbrotateVal" destination="rMb-CI-U6t" id="Ihc-Qe-oPf"/>
+                <outlet property="_lbscaleVal" destination="YeO-SM-rqY" id="ooL-k2-3Sa"/>
+                <outlet property="_mixImg" destination="pZS-NN-STr" id="ygt-t1-WNM"/>
+                <outlet property="_s1Img" destination="EKP-J4-0NW" id="2ze-2k-4rx"/>
+                <outlet property="_s2Img" destination="TNa-hF-M8o" id="zMw-hx-FoN"/>
+                <outlet property="alphaSlider" destination="hJX-BL-ZoK" id="2YT-3V-8hZ"/>
+                <outlet property="ctmSlider" destination="cyM-ct-dO1" id="pbO-xc-k4F"/>
+                <outlet property="rotateSlider" destination="DfB-Bn-h96" id="JyG-zp-DA5"/>
+                <outlet property="scaleSlider" destination="sYo-fJ-NLy" id="z83-0t-xAD"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="466"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" id="EKP-J4-0NW">
+                    <rect key="frame" x="16" y="8" width="99" height="103"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.png" id="TNa-hF-M8o">
+                    <rect key="frame" x="193" y="8" width="103" height="103"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="hJX-BL-ZoK">
+                    <rect key="frame" x="33" y="314" width="255" height="31"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="slideValueChanged:" destination="-1" eventType="valueChanged" id="x57-jv-y2c"/>
+                    </connections>
+                </slider>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="cyM-ct-dO1">
+                    <rect key="frame" x="33" y="352" width="220" height="31"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="slideValueChanged:" destination="-1" eventType="valueChanged" id="pNm-qM-Oz7"/>
+                    </connections>
+                </slider>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="-1" maxValue="1" id="sYo-fJ-NLy">
+                    <rect key="frame" x="33" y="390" width="220" height="31"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="slideValueChanged:" destination="-1" eventType="valueChanged" id="STw-de-nwd"/>
+                    </connections>
+                </slider>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="180" id="DfB-Bn-h96">
+                    <rect key="frame" x="33" y="428" width="220" height="31"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <action selector="rotateValueChanged:" destination="-1" eventType="valueChanged" id="l2Z-Yb-HPA"/>
+                    </connections>
+                </slider>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="pZS-NN-STr">
+                    <rect key="frame" x="99" y="128" width="123" height="129"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" id="vwd-Ky-rCa">
+                    <rect key="frame" x="259" y="356" width="37" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" id="YeO-SM-rqY">
+                    <rect key="frame" x="259" y="394" width="37" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" id="rMb-CI-U6t">
+                    <rect key="frame" x="259" y="432" width="37" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="483" y="330"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1.png" width="600" height="600"/>
+        <image name="2.png" width="600" height="600"/>
+    </resources>
+</document>

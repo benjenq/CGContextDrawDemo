@@ -1,0 +1,205 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* EmptyProjectAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {600, 286}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 476}";
+		};
+	};
+	1D3623250D0F684500981E51 /* EmptyProjectAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 1287}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 323}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* EmptyProject */ = {
+		activeExec = 0;
+		executables = (
+			C3B20BAF1C7F484900A9B540 /* EmptyProject */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 226}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 241}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C3B20BAF1C7F484900A9B540 /* EmptyProject */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* EmptyProject */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* EmptyProject */,
+		);
+		codeSenseManager = C3B20BBB1C7F486600A9B540 /* Code sense */;
+		executables = (
+			C3B20BAF1C7F484900A9B540 /* EmptyProject */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 478103625;
+			PBXWorkspaceStateSaveDate = 478103625;
+		};
+		perUserProjectItems = {
+			C3B20BC51C7F48AB00A9B540 /* PBXTextBookmark */ = C3B20BC51C7F48AB00A9B540 /* PBXTextBookmark */;
+			C3B20BC61C7F48AB00A9B540 /* PBXTextBookmark */ = C3B20BC61C7F48AB00A9B540 /* PBXTextBookmark */;
+			C3B20BC71C7F48AB00A9B540 /* PBXTextBookmark */ = C3B20BC71C7F48AB00A9B540 /* PBXTextBookmark */;
+			C3B20BD31C7F48E300A9B540 /* PBXTextBookmark */ = C3B20BD31C7F48E300A9B540 /* PBXTextBookmark */;
+			C3B20BD41C7F48E300A9B540 /* PBXBookmark */ = C3B20BD41C7F48E300A9B540 /* PBXBookmark */;
+			C3B20BD51C7F48E300A9B540 /* PlistBookmark */ = C3B20BD51C7F48E300A9B540 /* PlistBookmark */;
+		};
+		sourceControlManager = C3B20BBA1C7F486600A9B540 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C3B20BAF1C7F484900A9B540 /* EmptyProject */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = EmptyProject;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C3B20BBA1C7F486600A9B540 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C3B20BBB1C7F486600A9B540 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C3B20BBC1C7F487900A9B540 /* EmptyProjectViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 226}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 254}";
+		};
+	};
+	C3B20BC51C7F48AB00A9B540 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 241;
+		vrLoc = 0;
+	};
+	C3B20BC61C7F48AB00A9B540 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* EmptyProjectAppDelegate.h */;
+		name = "EmptyProjectAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 476;
+		vrLoc = 0;
+	};
+	C3B20BC71C7F48AB00A9B540 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* EmptyProjectAppDelegate.m */;
+		name = "EmptyProjectAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 323;
+		vrLoc = 0;
+	};
+	C3B20BD31C7F48E300A9B540 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B20BBC1C7F487900A9B540 /* EmptyProjectViewController.h */;
+		name = "EmptyProjectViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 254;
+		vrLoc = 0;
+	};
+	C3B20BD41C7F48E300A9B540 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* EmptyProject-Info.plist */;
+	};
+	C3B20BD51C7F48E300A9B540 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* EmptyProject-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			"NSMainNibFile~ipad",
+		);
+		name = "/Users/administrator/Desktop/EmptyProject/EmptyProject-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}
